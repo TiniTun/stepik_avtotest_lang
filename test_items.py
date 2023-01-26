@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class TestShop():
 
-    def test_button(self, browser):
+    def test_find_card_button(self, browser):
 
         try:
             url = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
